@@ -2,5 +2,6 @@ numpy
 pandas
 matplotlib
 scipy
-ipywidgets
-jupyterlab_widgets
+ipywidgets>=8,<9
+jupyterlab_widgets>=3,<4
+voila
