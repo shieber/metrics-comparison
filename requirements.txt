@@ -3,3 +3,4 @@ pandas
 matplotlib
 scipy
 ipywidgets
+jupyterlab_widgets
