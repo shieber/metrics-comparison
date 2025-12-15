@@ -4,11 +4,11 @@ An interactive Jupyter notebook demonstrating different normalization methods fo
 
 ## Run on Binder (no installation required)
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/shieber/metrics-comparison/master?urlpath=voila/render/normalization_interactive_demo.ipynb)
+[![Binder](https://shbr.link/metrics)
 
 Click the badge above or use this URL:
 ```
-https://mybinder.org/v2/gh/shieber/metrics-comparison/master?urlpath=voila/render/normalization_interactive_demo.ipynb
+https://shbr.link/metrics
 ```
 
 ## Run Locally
@@ -72,8 +72,6 @@ Run all cells to see the interactive visualization.
 
 The notebook uses a JavaScript-based approach to initialize the visualization. This is necessary because:
 
-1. Voila executes all Python cells *before* rendering the page
-2. Generating matplotlib output inside an ipywidgets `Output` widget during this pre-render phase can block indefinitely
-3. The solution uses `requestIdleCallback` to trigger the initial plot after the browser is idle and widgets are fully initialized
-
-
+1. Voila executes all Python cells *before* rendering the page.
+2. Generating matplotlib output inside an ipywidgets `Output` widget during this pre-render phase can block indefinitely.
+3. The solution uses `requestIdleCallback` to trigger the initial plot after the browser is idle and widgets are fully initialized.
