@@ -4,7 +4,7 @@ An interactive Jupyter notebook demonstrating different normalization methods fo
 
 ## Run on Binder (no installation required)
 
-[![Binder](https://shbr.link/metrics)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://shbr.link/metrics)
 
 Click the badge above or use this URL:
 ```
